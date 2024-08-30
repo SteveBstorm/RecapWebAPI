@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecapWebAPI_COMMON\RecapWebAPI_COMMON.csproj" />
+    <ProjectReference Include="..\RecapWebAPI_DAL\RecapWebAPI_DAL.csproj" />
+  </ItemGroup>
+
+</Project>
